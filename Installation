@@ -1,0 +1,17 @@
+This the procedure for using TensorFlow with GPU(cuda) in Windows. The following are the steps which will keep you out of troubles(tried and tested!)
+IF YOU INSTALL EVERYTHING IN THE DEFAULT DIRECTORIES, NO ENVIRONMENT ERRORS WILL COME(MOSTLY.)
+
+INSTALLING VISUAL STUDIO
+1. Install VS 2015(some people get issues with VS 2017, so check whichever is compatible with cuda toolkit).
+
+INSTALLING CUDA
+1. Download cuda toolkit 9.0 (Tensorflow currently has a support for it)
+2. Verify the installation by following the guide on Cuda in windows available on the nvidia's webpage
+3. Download cudnn 7 (currently cudnn 7.0 is supported with tensorflow).
+4. Read the guide on using cudnn 7 in windows given on the nvidia's webpage.(otherwise you will get the environment related issues)
+
+INSTALLING TENSORFLOW(I did it in my case using anaconda and pip, you can otherwise go by simple pip install(given on the tensorflow site)).
+1. Install anaconda with python 3.5
+2. Now for installing tensorflow with gpu either follow the instructions given on the tensorflow(if that doesnt give some errors) or run the following command
+  "python -m pip install --ignore-installed --upgrade tensorflow-gpu"
+3. Follow the validate your installation on the tensorflow webpage

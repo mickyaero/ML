@@ -13,5 +13,7 @@ INSTALLING CUDA
 INSTALLING TENSORFLOW(I did it in my case using anaconda and pip, you can otherwise go by simple pip install(given on the tensorflow site)).
 1. Install anaconda with python 3.5
 2. Now for installing tensorflow with gpu either follow the instructions given on the tensorflow(if that doesnt give some errors) or run the following command
-  "python -m pip install --ignore-installed --upgrade tensorflow-gpu"
+  "python -m pip install --ignore-installed --upgrade tensorflow-gpu".
+  The HTTPS errors can be removed by using the following command:
+  "conda update anaconda-navigator" in the anaconda prompt.
 3. Follow the validate your installation on the tensorflow webpage
